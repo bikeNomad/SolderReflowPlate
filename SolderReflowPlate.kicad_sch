@@ -1,5 +1,51 @@
-(kicad_sch (version 20211123) (generator eeschema)
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 708a9796-96ea-4a5b-b930-dd0218e1ec37)
+
+  (paper "USLedger")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 128.27 26.67) (size 58.42 71.12) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 57179c2e-792d-438a-a314-39cb68b41b54)
+    (property "Sheetname" "POWER" (at 128.27 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SolderReflowPlate_POWER.kicad_sch" (at 128.27 98.3746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SolderReflowPlate"
+        (path "/708a9796-96ea-4a5b-b930-dd0218e1ec37" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 26.67 26.67) (size 68.58 74.93) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 64bfca22-61c4-4442-831c-2423d7208499)
+    (property "Sheetname" "CPU" (at 26.67 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SolderReflowPlate_CPU.kicad_sch" (at 26.67 102.1846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 26.67 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "SolderReflowPlate"
+        (path "/708a9796-96ea-4a5b-b930-dd0218e1ec37" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

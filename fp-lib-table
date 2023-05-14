@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/footprints.pretty")(options "")(descr "Imported footprints"))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/footprints.pretty")(options "")(descr ""))
+  (lib (name "RP2040_minimal")(type "KiCad")(uri "/Users/ned/src/RP2040_minimal/RP2040_minimal.pretty")(options "")(descr ""))
 )
